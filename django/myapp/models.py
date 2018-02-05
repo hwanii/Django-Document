@@ -19,6 +19,7 @@ class Person(models.Model):
         ('L', 'Large'),
     )
     name = models.CharField(max_length=60)
+    # nickname = models.CharField(max_length=30, unique=True)
     shirt_size = models.CharField(max_length=1, choices=SHIRT_SIZES)
 
     def __str__(self):
