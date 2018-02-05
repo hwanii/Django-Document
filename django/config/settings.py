@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myapp',
     'foreignkey',
+    'many_to_many',
 ]
 
 MIDDLEWARE = [
