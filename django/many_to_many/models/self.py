@@ -19,3 +19,5 @@ class FacebookUser(models.Model):
 
         return f'{self.name} (친구: {friends})'
 
+    class Meta:
+        verbose_name_plural = 'self - FacebookUser'
