@@ -6,7 +6,9 @@ from many_to_many.models import (
     # intermediate
     Post, User, PostLike,
     # self
-    FacebookUser,
+    FacebookUser,InstagramUser,
+    #
+    Relation, TwitterUser,
 )
 
 admin.site.register(Pizza)
@@ -15,3 +17,6 @@ admin.site.register(Post)
 admin.site.register(User)
 admin.site.register(PostLike)
 admin.site.register(FacebookUser)
+admin.site.register(InstagramUser)
+admin.site.register(Relation)
+admin.site.register(TwitterUser)
