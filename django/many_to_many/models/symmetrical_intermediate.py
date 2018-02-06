@@ -109,4 +109,4 @@ class Relation(models.Model):
             #   두 항목의 값이 모두 같은 또 다른 데이터가 존재할 수 없음
             ('from_user', 'to_user'),
         )
-        verbose_name_plural = 'symmetrical_Intermediate - TwitterUser'
+        verbose_name_plural = 'symmetrical_Intermediate - Relation'
