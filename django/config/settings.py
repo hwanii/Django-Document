@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'relations.one_to_one.apps.OneToOneConfig',
 
     'inheritance.abstract_base_classes',
+    'inheritance.rel.apps.RelConfig'
 ]
 
 MIDDLEWARE = [
