@@ -1,12 +1,12 @@
 from django.contrib import admin
 
-from many_to_many.models import (
+from .models import (
     # basic
     Pizza, Topping,
     # intermediate
     Post, User, PostLike,
     # self
-    FacebookUser,InstagramUser,
+    FacebookUser, InstagramUser,
     #
     Relation, TwitterUser,
 )
