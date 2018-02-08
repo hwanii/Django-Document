@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'foreignkey',
     'many_to_many',
     'one_to_one',
+
+    'inheritance.abstract_base_classes',
 ]
 
 MIDDLEWARE = [

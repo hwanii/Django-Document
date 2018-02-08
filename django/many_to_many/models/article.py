@@ -1,5 +1,9 @@
 from django.db import models
 
+__all__ = (
+    'Publication',
+    'Article'
+)
 
 class Publication(models.Model):
     title = models.CharField(max_length=30)
