@@ -12,6 +12,5 @@ class Place(models.Model):
 class Restaurant(Place):
     serves_hot_dogs = models.BooleanField(default=False)
     serves_pizza = models.BooleanField(default=False)
-
     def __str__(self):
         return f'Restaurant {self.name} | {self.address}'
