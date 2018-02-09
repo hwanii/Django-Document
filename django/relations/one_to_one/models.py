@@ -8,6 +8,7 @@ class Place(models.Model):
     def __str__(self):
         return f'{self.name} the place'
 
+
 class Restaurant(models.Model):
     place = models.OneToOneField(
         Place,
@@ -19,6 +20,7 @@ class Restaurant(models.Model):
 
     def __str__(self):
         return f'{self.place.name} the restaurant'
+
 
 class Waiter(models.Model):
     restaurant = models.ForeignKey(Restaurant, on_delete=models.CASCADE)

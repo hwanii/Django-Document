@@ -73,6 +73,7 @@ class TwitterUser(models.Model):
     class Meta:
         verbose_name_plural = 'symmetrical_Intermediate - TwitterUser'
 
+
 class Relation(models.Model):
     """
     유저 간의 관계를 정의하는 모델

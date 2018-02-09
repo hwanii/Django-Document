@@ -46,8 +46,9 @@ INSTALLED_APPS = [
     'relations.many_to_many.apps.ManyToManyConfig',
     'relations.one_to_one.apps.OneToOneConfig',
 
-    'inheritance.abstract_base_classes',
-    'inheritance.rel.apps.RelConfig'
+    'inheritance.abstract_base_classes.apps.AbstractBaseClassesConfig',
+    'inheritance.rel.apps.RelConfig',
+    'inheritance.multi_table.apps.MultiTableConfig',
 ]
 
 MIDDLEWARE = [
