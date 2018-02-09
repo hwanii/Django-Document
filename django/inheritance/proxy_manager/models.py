@@ -19,6 +19,7 @@ class NewManager(Manager):
 # 커스텀 매니저를 직접 자신의 속성으로 갖는 MyPerson1
 class MyPerson1(Person):
     secondary = NewManager()
+
     class Meta:
         proxy = True
 
